@@ -3,7 +3,4 @@ resource "aws_instance" "server-1" {
 	instance_type = var.instance_type
 }
 
-provider "aws" {
-  region = var.region
-}
 

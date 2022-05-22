@@ -6,7 +6,7 @@ variable "secret_key" {}
 variable "subnet_id" {}
 
 
-resource "aws_instance" "server-1" {
+resource "aws_instance" "server-2" {
 
 	ami = var.ami
 	

@@ -2,6 +2,7 @@ variable "ami" {}
 variable "region" {}
 variable "access_key" {}
 variable "secret_key" {}
+variabale "instance_type" {}
 variable "subnet_id" {}
 
 

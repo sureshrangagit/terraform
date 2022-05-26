@@ -17,3 +17,4 @@ resource "aws_security_group" "secgroup1" {
     cidr_blocks = [var.vpn_ip]
   }
   
+}

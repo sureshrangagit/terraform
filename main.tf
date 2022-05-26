@@ -2,8 +2,8 @@ variable "ami" {}
 variable "region" {}
 variable "access_key" {}
 variable "secret_key" {}
-variable "instance_type" {}
-variabl "subnet_id" {}
+
+variable "subnet_id" {}
 
 
 resource "aws_instance" "server-2" {
